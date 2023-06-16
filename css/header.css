@@ -1,5 +1,5 @@
 .header {
-  background: no-repeat url(/img/backgound/header-backgound-mobile.png);
+  background: no-repeat url(../img/backgound/header-backgound-mobile.png);
   min-width: 417px;
   min-height: 847px;
   background-size: cover;
