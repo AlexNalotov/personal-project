@@ -1,6 +1,6 @@
 .features__video {
   position: relative;
-  background: center no-repeat url(/img/backgound/video-bg.jpg);
+  background: center no-repeat url(../img/backgound/video-bg.jpg);
   width: 385.8px;
   height: 215.77px;
   margin: 0 auto;
