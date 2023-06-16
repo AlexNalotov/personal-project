@@ -1,0 +1,19 @@
+.header {
+  background: no-repeat url(/img/backgound/header-backgound-mobile.png);
+  min-width: 417px;
+  min-height: 847px;
+}
+
+.navigation__logo {
+  width: 186px;
+  height: 58px;
+}
+
+.navigation__pages,
+.navigation__sociale {
+  display: none;
+}
+
+.container-section {
+  padding: 2px;
+}
