@@ -9,6 +9,8 @@
 :root {
   --main-text-font: "Roboto Mono", monospace;
   --main-text-color: #ffffff;
+  --second-text-color: #252b42;
+
   --buttom-color: #2091f9;
 
   scroll-behavior: smooth;
