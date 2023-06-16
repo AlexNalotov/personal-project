@@ -2,11 +2,19 @@
   background: no-repeat url(/img/backgound/header-backgound-mobile.png);
   min-width: 417px;
   min-height: 847px;
+  background-size: cover;
+}
+
+.navigation {
+  min-height: 78px;
 }
 
 .navigation__logo {
+  margin-left: 10px;
   width: 186px;
   height: 58px;
+  display: flex;
+  justify-content: space-between;
 }
 
 .navigation__pages,
@@ -16,4 +24,39 @@
 
 .container-section {
   padding: 2px;
+}
+
+.header__title {
+  margin-top: 90px;
+  text-align: center;
+}
+
+.header__title h1 {
+  font-family: var(--main-text-font);
+  font-weight: 400;
+  color: var(--main-text-color);
+  font-size: 48px;
+  letter-spacing: -3px;
+}
+
+.header__title p {
+  font-family: var(--main-text-font);
+  color: var(--main-text-color);
+  margin-top: 27px;
+}
+
+.button-link {
+  display: inline-block;
+  min-height: 52px;
+  min-width: 236px;
+  text-align: center;
+  color: var(--main-text-color);
+  font-family: var(--main-text-font);
+
+  text-decoration: none;
+  border-radius: 35px;
+  background-color: var(--buttom-color);
+  font-size: 20px;
+  padding: 16px 0;
+  margin-top: 85px;
 }

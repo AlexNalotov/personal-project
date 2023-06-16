@@ -8,14 +8,13 @@
 
 :root {
   --main-text-font: "Roboto Mono", monospace;
+  --main-text-color: #ffffff;
+  --buttom-color: #2091f9;
+
   scroll-behavior: smooth;
 }
 
 img {
   display: block;
   width: 100%;
-}
-
-a {
-  text-decoration: none;
 }
